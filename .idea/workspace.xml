@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10d6d999-6b27-4cc4-b1b2-4c688f86ad0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Simple_Function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Global_Local_Variables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +21,14 @@
     <SUITE FILE_PATH="coverage/PythonUdemy$Quize.coverage" NAME="Quize Coverage Results" MODIFIED="1537184866687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Lists.coverage" NAME="Lists Coverage Results" MODIFIED="1536669278807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Condition_If_Else.coverage" NAME="Condition_If_Else Coverage Results" MODIFIED="1536963236436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonUdemy$Simple_Function.coverage" NAME="Simple_Function Coverage Results" MODIFIED="1537190652850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonUdemy$Simple_Function.coverage" NAME="Simple_Function Coverage Results" MODIFIED="1537190766389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Dictionary.coverage" NAME="Dictionary Coverage Results" MODIFIED="1536683974277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$FindMyAge.coverage" NAME="FindMyAge Coverage Results" MODIFIED="1536960112158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Tuple.coverage" NAME="Tuple Coverage Results" MODIFIED="1536665139035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$ConvertDataType.coverage" NAME="ConvertDataType Coverage Results" MODIFIED="1536875378837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$elif.coverage" NAME="elif Coverage Results" MODIFIED="1537122841731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$WhileLoop.coverage" NAME="WhileLoop Coverage Results" MODIFIED="1537123179960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonUdemy$Global_Local_Variables.coverage" NAME="Global_Local_Variables Coverage Results" MODIFIED="1537191480570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Nested_For_Loop.coverage" NAME="Nested_For_Loop Coverage Results" MODIFIED="1537179983559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Bitwise.coverage" NAME="Bitwise Coverage Results" MODIFIED="1536691652625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -51,22 +52,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2759" />
+          <entry key="py" value="2913" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="19" />
+          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2759" />
+          <entry key="Python" value="2913" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="19" />
+          <entry key="py" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -76,13 +77,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Simple_Function.py">
+        <entry file="file://$PROJECT_DIR$/Global_Local_Variables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="153">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
-                <marker date="1537190652750" expanded="true" signature="91:117" ph="..." />
-                <marker date="1537190652750" expanded="true" signature="128:266" ph="..." />
+                <marker date="1537191480488" expanded="true" signature="43:48" ph="..." />
+                <marker date="1537191480488" expanded="true" signature="43:139" ph="..." />
+                <marker date="1537191480488" expanded="true" signature="163:242" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,6 +124,7 @@
         <option value="$PROJECT_DIR$/Quize.py" />
         <option value="$PROJECT_DIR$/MainFile.py" />
         <option value="$PROJECT_DIR$/Simple_Function.py" />
+        <option value="$PROJECT_DIR$/Global_Local_Variables.py" />
       </list>
     </option>
   </component>
@@ -179,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Simple_Function">
+  <component name="RunManager" selected="Python.Global_Local_Variables">
     <configuration name="ControlLoops" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonUdemy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,6 +205,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Global_Local_Variables" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonUdemy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Global_Local_Variables.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MainFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonUdemy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,28 +241,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MainFile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Nested_For_Loop" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonUdemy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nested_For_Loop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,19 +294,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Nested_For_Loop" />
       <item itemvalue="Python.ControlLoops" />
       <item itemvalue="Python.Quize" />
       <item itemvalue="Python.MainFile" />
       <item itemvalue="Python.Simple_Function" />
+      <item itemvalue="Python.Global_Local_Variables" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Global_Local_Variables" />
         <item itemvalue="Python.Simple_Function" />
         <item itemvalue="Python.MainFile" />
         <item itemvalue="Python.Quize" />
         <item itemvalue="Python.ControlLoops" />
-        <item itemvalue="Python.Nested_For_Loop" />
       </list>
     </recent_temporary>
   </component>
@@ -498,6 +501,18 @@
           <folding>
             <marker date="1537190652750" expanded="true" signature="91:117" ph="..." />
             <marker date="1537190652750" expanded="true" signature="128:266" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Global_Local_Variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <marker date="1537191480488" expanded="true" signature="43:48" ph="..." />
+            <marker date="1537191480488" expanded="true" signature="43:139" ph="..." />
+            <marker date="1537191480488" expanded="true" signature="163:242" ph="..." />
           </folding>
         </state>
       </provider>
