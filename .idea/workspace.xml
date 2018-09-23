@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10d6d999-6b27-4cc4-b1b2-4c688f86ad0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FileRead.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileWrite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseConnect.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,36 +12,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PythonUdemy$MainFile.coverage" NAME="MainFile Coverage Results" MODIFIED="1537185924864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonUdemy$BooleanOperations.coverage" NAME="BooleanOperations Coverage Results" MODIFIED="1536692591656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonUdemy$Lists.coverage" NAME="Lists Coverage Results" MODIFIED="1536669278807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonUdemy$Condition_If_Else.coverage" NAME="Condition_If_Else Coverage Results" MODIFIED="1536963236436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonUdemy$Tuple.coverage" NAME="Tuple Coverage Results" MODIFIED="1536665139035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonUdemy$elif.coverage" NAME="elif Coverage Results" MODIFIED="1537122841731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonUdemy$DatabaseConnect.coverage" NAME="DatabaseConnect Coverage Results" MODIFIED="1537713068018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonUdemy$Nested_For_Loop.coverage" NAME="Nested_For_Loop Coverage Results" MODIFIED="1537179983559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$For_Loop.coverage" NAME="For_Loop Coverage Results" MODIFIED="1537179130925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Slice.coverage" NAME="Slice Coverage Results" MODIFIED="1536946552315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonUdemy$MainFile.coverage" NAME="MainFile Coverage Results" MODIFIED="1537185924864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Strings.coverage" NAME="Strings Coverage Results" MODIFIED="1536663305034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$ControlLoops.coverage" NAME="ControlLoops Coverage Results" MODIFIED="1537180795781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Exceptions.coverage" NAME="Exceptions Coverage Results" MODIFIED="1537633019651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonUdemy$BooleanOperations.coverage" NAME="BooleanOperations Coverage Results" MODIFIED="1536692591656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Quize.coverage" NAME="Quize Coverage Results" MODIFIED="1537184866687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonUdemy$Lists.coverage" NAME="Lists Coverage Results" MODIFIED="1536669278807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$FileRead.coverage" NAME="FileRead Coverage Results" MODIFIED="1537636324732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonUdemy$Condition_If_Else.coverage" NAME="Condition_If_Else Coverage Results" MODIFIED="1536963236436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Lambda.coverage" NAME="Lambda Coverage Results" MODIFIED="1537192549602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$FileWrite.coverage" NAME="FileWrite Coverage Results" MODIFIED="1537634304050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Simple_Function.coverage" NAME="Simple_Function Coverage Results" MODIFIED="1537190766389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Dictionary.coverage" NAME="Dictionary Coverage Results" MODIFIED="1536683974277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$FindMyAge.coverage" NAME="FindMyAge Coverage Results" MODIFIED="1536960112158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonUdemy$Tuple.coverage" NAME="Tuple Coverage Results" MODIFIED="1536665139035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$ConvertDataType.coverage" NAME="ConvertDataType Coverage Results" MODIFIED="1536875378837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonUdemy$elif.coverage" NAME="elif Coverage Results" MODIFIED="1537122841731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$WhileLoop.coverage" NAME="WhileLoop Coverage Results" MODIFIED="1537123179960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Global_Local_Variables.coverage" NAME="Global_Local_Variables Coverage Results" MODIFIED="1537191625645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$TryCatch.coverage" NAME="TryCatch Coverage Results" MODIFIED="1537632270530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonUdemy$Nested_For_Loop.coverage" NAME="Nested_For_Loop Coverage Results" MODIFIED="1537179983559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Bitwise.coverage" NAME="Bitwise Coverage Results" MODIFIED="1536691652625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="668974499">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.49" value="2" />
@@ -50,34 +50,36 @@
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.52" value="3" />
           <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.79" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3607" />
+          <entry key="py" value="3730" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="26" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Python" value="3607" />
+          <entry key="Python" value="3730" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="26" />
+          <entry key="py" value="27" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -87,31 +89,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FileWrite.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-end-line="11" />
-              <folding>
-                <marker date="1537634303968" expanded="true" signature="11:16" ph="..." />
-                <marker date="1537634303968" expanded="true" signature="11:357" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myfile.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FileRead.py">
+        <entry file="file://$PROJECT_DIR$/DatabaseConnect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <marker date="1537636324333" expanded="true" signature="11:143" ph="..." />
+                <marker date="1537712367971" expanded="true" signature="26:71" ph="..." />
+                <marker date="1537712367971" expanded="true" signature="26:176" ph="..." />
               </folding>
             </state>
           </provider>
@@ -158,6 +143,7 @@
         <option value="$PROJECT_DIR$/Exceptions.py" />
         <option value="$PROJECT_DIR$/FileWrite.py" />
         <option value="$PROJECT_DIR$/FileRead.py" />
+        <option value="$PROJECT_DIR$/DatabaseConnect.py" />
       </list>
     </option>
   </component>
@@ -167,7 +153,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -181,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,7 +183,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,7 +201,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FileRead">
+  <component name="RunManager" selected="Python.DatabaseConnect">
+    <configuration name="DatabaseConnect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonUdemy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DatabaseConnect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonUdemy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,28 +290,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Lambda" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonUdemy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lambda.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="TryCatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonUdemy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -327,19 +313,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Lambda" />
       <item itemvalue="Python.TryCatch" />
       <item itemvalue="Python.Exceptions" />
       <item itemvalue="Python.FileWrite" />
       <item itemvalue="Python.FileRead" />
+      <item itemvalue="Python.DatabaseConnect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DatabaseConnect" />
         <item itemvalue="Python.FileRead" />
         <item itemvalue="Python.FileWrite" />
         <item itemvalue="Python.Exceptions" />
         <item itemvalue="Python.TryCatch" />
-        <item itemvalue="Python.Lambda" />
       </list>
     </recent_temporary>
   </component>
@@ -358,20 +344,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5930408" weight="0.3622951" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.59228444" visible="true" weight="0.3622951" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.40695915" side_tool="true" visible="true" weight="0.3622951" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4077156" side_tool="true" visible="true" weight="0.3622951" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -558,9 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <marker date="1537632270429" expanded="true" signature="20:223" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -568,8 +552,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileRead.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding>
-            <marker date="1537633013611" expanded="true" signature="11:147" ph="..." />
+            <marker date="1537636324333" expanded="true" signature="11:143" ph="..." />
           </folding>
         </state>
       </provider>
@@ -580,7 +571,7 @@
     <entry file="file://$PROJECT_DIR$/FileWrite.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+          <caret line="10" column="13" selection-start-line="10" selection-end-line="11" />
           <folding>
             <marker date="1537634303968" expanded="true" signature="11:16" ph="..." />
             <marker date="1537634303968" expanded="true" signature="11:357" ph="..." />
@@ -588,12 +579,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileRead.py">
+    <entry file="file://$PROJECT_DIR$/DatabaseConnect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <marker date="1537636324333" expanded="true" signature="11:143" ph="..." />
+            <marker date="1537712367971" expanded="true" signature="26:71" ph="..." />
+            <marker date="1537712367971" expanded="true" signature="26:176" ph="..." />
           </folding>
         </state>
       </provider>
