@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10d6d999-6b27-4cc4-b1b2-4c688f86ad0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DatabaseConnect.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnect.py" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseConnect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/informations.db" beforeDir="false" afterPath="$PROJECT_DIR$/informations.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +19,7 @@
     <SUITE FILE_PATH="coverage/PythonUdemy$Condition_If_Else.coverage" NAME="Condition_If_Else Coverage Results" MODIFIED="1536963236436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Tuple.coverage" NAME="Tuple Coverage Results" MODIFIED="1536665139035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$elif.coverage" NAME="elif Coverage Results" MODIFIED="1537122841731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonUdemy$DatabaseConnect.coverage" NAME="DatabaseConnect Coverage Results" MODIFIED="1537713068018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonUdemy$DatabaseConnect.coverage" NAME="DatabaseConnect Coverage Results" MODIFIED="1537892230665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Nested_For_Loop.coverage" NAME="Nested_For_Loop Coverage Results" MODIFIED="1537179983559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$For_Loop.coverage" NAME="For_Loop Coverage Results" MODIFIED="1537179130925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Slice.coverage" NAME="Slice Coverage Results" MODIFIED="1536946552315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -42,7 +43,7 @@
     <session id="668974499">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.49" value="2" />
@@ -51,17 +52,18 @@
           <entry key="project.open.time.52" value="3" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.79" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3730" />
+          <entry key="py" value="4043" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
@@ -74,7 +76,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Python" value="3730" />
+          <entry key="Python" value="4043" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,11 +94,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DatabaseConnect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="307">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
-                <marker date="1537712367971" expanded="true" signature="26:71" ph="..." />
-                <marker date="1537712367971" expanded="true" signature="26:176" ph="..." />
+                <marker date="1537891824947" expanded="true" signature="224:363" ph="..." />
+                <marker date="1537891824947" expanded="true" signature="374:375" ph="..." />
+                <marker date="1537891824947" expanded="true" signature="374:625" ph="..." />
               </folding>
             </state>
           </provider>
@@ -346,19 +349,19 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.59228444" visible="true" weight="0.3622951" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.591528" visible="true" weight="0.3622951" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4077156" side_tool="true" visible="true" weight="0.3622951" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.408472" side_tool="true" visible="true" weight="0.3622951" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -559,9 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <marker date="1537636324333" expanded="true" signature="11:143" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,20 +572,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" selection-start-line="10" selection-end-line="11" />
-          <folding>
-            <marker date="1537634303968" expanded="true" signature="11:16" ph="..." />
-            <marker date="1537634303968" expanded="true" signature="11:357" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DatabaseConnect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="307">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
-            <marker date="1537712367971" expanded="true" signature="26:71" ph="..." />
-            <marker date="1537712367971" expanded="true" signature="26:176" ph="..." />
+            <marker date="1537891824947" expanded="true" signature="224:363" ph="..." />
+            <marker date="1537891824947" expanded="true" signature="374:375" ph="..." />
+            <marker date="1537891824947" expanded="true" signature="374:625" ph="..." />
           </folding>
         </state>
       </provider>
