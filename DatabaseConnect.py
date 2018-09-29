@@ -5,7 +5,7 @@ db = sqlite3.connect("informations.db")
 
 def create_table():
     db.row_factory = sqlite3.Row
-    db.execute("create table if not exists Admin(Name text,Age int)")
+    db.execute("create table if not exists Admin(ID integer primary key autoincrement,Name text,Age int)")
     db.commit()
 
 def add_records(name,age):
@@ -17,18 +17,18 @@ def add_records(name,age):
 def List_Data():
     cursor=db.execute("select * from Admin")
     for row in cursor:
-        print("Name{} .. Age {} ".format(row["Name"],row["Age"]))
+        print("ID = {} ... Name{} .. Age {} ".format(row["ID"],row["Name"],row["Age"]))
 
-def deleteRecord(name):
+def deleteRecord(ID):
     db.row_factory = sqlite3.Row
     # delete records
-    db.execute("delete from Admin where Name='{}'".format(name))
+    db.execute("delete from Admin where ID={}".format(ID))
     db.commit()
     print("record is deleted")
-def update (name,age):
+def update (ID,age):
     db.row_factory = sqlite3.Row
     # update records by name
-    db.execute("update Admin set Age=? where Name=?",(age,name))
+    db.execute("update Admin set Age=? where ID=?",(age,ID))
     db.commit()
     print("record is updated")
 def main():
@@ -40,11 +40,11 @@ def main():
             age = int(input("Enter Age"))
             add_records(name,age)
         elif (indexOp == 4):
-            name = input("Enter person name")
+            name = int(input("Enter person ID"))
             age = int(input("Enter new Age"))
             update(name, age)
         elif (indexOp == 3):
-            name = input("Enter name to delete")
+            name = int(input("Enter ID to delete"))
             deleteRecord(name)
         elif(indexOp==2):
             List_Data()
