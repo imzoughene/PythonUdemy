@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10d6d999-6b27-4cc4-b1b2-4c688f86ad0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Class_Operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class_Operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_Operations.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +32,7 @@
     <SUITE FILE_PATH="coverage/PythonUdemy$FileRead.coverage" NAME="FileRead Coverage Results" MODIFIED="1537636324732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Lambda.coverage" NAME="Lambda Coverage Results" MODIFIED="1537192549602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$FileWrite.coverage" NAME="FileWrite Coverage Results" MODIFIED="1537634304050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonUdemy$Class_Operations.coverage" NAME="Class_Operations Coverage Results" MODIFIED="1538417551016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonUdemy$Class_Operations.coverage" NAME="Class_Operations Coverage Results" MODIFIED="1538418062205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Simple_Function.coverage" NAME="Simple_Function Coverage Results" MODIFIED="1537190766389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$Dictionary.coverage" NAME="Dictionary Coverage Results" MODIFIED="1536683974277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonUdemy$FindMyAge.coverage" NAME="FindMyAge Coverage Results" MODIFIED="1536960112158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -48,7 +47,7 @@
     <session id="668974499">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.49" value="2" />
@@ -71,7 +70,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5340" />
+          <entry key="py" value="5364" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
@@ -84,7 +83,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Python" value="5340" />
+          <entry key="Python" value="5364" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -102,13 +101,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Class_Operations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="136">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding>
-                <marker date="1538417481845" expanded="true" signature="17:22" ph="..." />
-                <marker date="1538417481845" expanded="true" signature="145:150" ph="..." />
-                <marker date="1538417481845" expanded="true" signature="206:207" ph="..." />
-                <marker date="1538417481845" expanded="true" signature="206:385" ph="..." />
+                <marker date="1538418062123" expanded="true" signature="17:22" ph="..." />
+                <marker date="1538418062123" expanded="true" signature="145:150" ph="..." />
+                <marker date="1538418062123" expanded="true" signature="218:227" ph="..." />
+                <marker date="1538418062123" expanded="true" signature="293:294" ph="..." />
+                <marker date="1538418062123" expanded="true" signature="293:472" ph="..." />
               </folding>
             </state>
           </provider>
@@ -171,7 +171,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -362,14 +362,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30332828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5892587" visible="true" weight="0.3622951" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5892587" weight="0.3622951" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -647,13 +646,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Class_Operations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
-            <marker date="1538417481845" expanded="true" signature="17:22" ph="..." />
-            <marker date="1538417481845" expanded="true" signature="145:150" ph="..." />
-            <marker date="1538417481845" expanded="true" signature="206:207" ph="..." />
-            <marker date="1538417481845" expanded="true" signature="206:385" ph="..." />
+            <marker date="1538418062123" expanded="true" signature="17:22" ph="..." />
+            <marker date="1538418062123" expanded="true" signature="145:150" ph="..." />
+            <marker date="1538418062123" expanded="true" signature="218:227" ph="..." />
+            <marker date="1538418062123" expanded="true" signature="293:294" ph="..." />
+            <marker date="1538418062123" expanded="true" signature="293:472" ph="..." />
           </folding>
         </state>
       </provider>
