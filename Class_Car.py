@@ -1,4 +1,11 @@
 class Car:
+    def __init__(self,type,Model,Price,MilesDrive,Owner):
+        self._type=type
+        self._Model = Model
+        self._Price = Price
+        self._MilesDrive = MilesDrive
+        self._Owner = Owner
+
     def SetType(self,type):
         self._type=type
     def GetType(self):
