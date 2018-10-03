@@ -1,0 +1,10 @@
+{
+    "name":"imzoughene",
+    "age":25,
+    "languages":["C#","Java","Php","Front End"],
+    "Jobs":[
+        {"Place":"Perf informatique","Title":"FullStack Developer"},
+        {"Place":"Career Center","Title":"DontNet Developer"},
+        {"Place":"HdvHanif","Title":"Front End Developer"}
+    ]
+}

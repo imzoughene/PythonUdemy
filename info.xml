@@ -1,0 +1,24 @@
+<info>
+<name>imzoughene</name>
+<age>25</age>
+<languages>
+<item>C#</item>
+<item>Java</item>
+<item>Php</item>
+<item>Front End</item>
+</languages>
+<Jobs>
+<job>
+<Place>Perf informatique</Place>
+<Title>FullStack Developer</Title>
+</job>
+<job>
+<Place>Career Center</Place>
+<Title>DontNet Developer</Title>
+</job>
+<job>
+<Place>HdvHanif</Place>
+<Title>Front End Developer</Title>
+</job>
+</Jobs>
+</info>
